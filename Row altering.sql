@@ -23,6 +23,9 @@ Select * From student;/*shows the output*/
 /*INSERT Into student VALUES(7,'Kate', 'Math'); /*Duplicate entry 'Math' for key 'student.major' Error Code: ER_DUP_ENTRY*/
 /*INSERT Into student(student_id, name) VALUES(9,'Kate');
 
+*/
+INSERT Into student(name,major) VALUES('A', 'Bio');
+INSERT Into student(name,major) VALUES('A', 'Bio');
 
 
 
@@ -54,5 +57,5 @@ Constraints
 NOT NULL: gives that the out put of one can not be null if a data is not provided
 UNIQUE: make one assigned data to be uniqe from others
 DEFAULT: if there is no given data for that it gives out a default statment as "DEFAULT '-'"
-
+AUTO_INCREMENT: meke the primeary key auto-increment for an INT vakue.
 */
